@@ -1,0 +1,169 @@
+@import "cssreset.css";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(202, 191, 178);
+}
+  
+  header .logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  header .logo .name {
+    background: rgb(255, 255, 255);
+    padding: 15px 20px;
+  }
+  
+  header .menu-items {
+    font-size: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .menu-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 15px;
+    transition: all .2s ease-in-out;
+  }
+  
+  header .menu-items a:hover {
+    font-weight: 700;
+    color: rgba(255, 53, 53, .8);
+  }
+  
+  header .menu-btn {
+    font-weight: 700;
+    color:  rgba(255, 53, 53, .8);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: none;
+  }
+
+.hero{
+    padding-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+/* .hero-container{
+    margin-left: 3rem;
+    
+  } */
+
+
+  #top .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+    align-items: center;
+  }
+  
+  #top .info {
+    position: relative;
+    padding: 2px;
+  }
+  
+  #top .info h1 {
+    position: relative;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    margin-bottom: 2rem;
+    z-index: 1;
+  }
+  
+  #top .info p {
+    position: relative;
+    color: #919191;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+    margin-right: 6rem;
+    z-index: 1; 
+    line-height: 23px;
+  }
+  
+  #top .info a {
+    position: relative;
+    color: #919191;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    z-index: 1;
+    letter-spacing: 2px;
+  }
+  
+  #top .img .background-img {
+    background: url("../img/resturant.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 550px;
+    height: 300px;
+    margin: 0 6rem;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.22);
+  }
+
+  #top .img .background-img1 {
+    background: url("../img/outdoor.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 550px;
+    height: 300px;
+    margin: 0 6rem;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.22);
+  }
+
+
+
+
+  #footer {
+	background: #C8C4AB;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 25px 0;
+	position: absolute;
+	bottom: 0;
+	font-size: 0.75rem;	
+}
+
+#footer p {
+	width: 20%;
+	text-align: center;
+}
+
+#footer .info {
+	width: 30%;
+	text-align: center;
+}
+
+#footer .info a {
+	margin-left: 10px;
+	text-decoration: none;
+	color: #428bca;
+}
+
+#footer .info a:visited {
+	color: #428bca;
+}
+  
